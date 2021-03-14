@@ -9,7 +9,7 @@ function App() {
         <a className="navbar-brand" href>Navbar</a>
       </div>
       </nav>
-      <h1>Hello Apa Kabar</h1>
+      <h1>Hello Apa Kabar Dunia</h1>
     </div>
     // <div className="App">
     //   <header className="App-header">
