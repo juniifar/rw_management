@@ -1,54 +1,16 @@
 // import logo from './logo.svg';
 import './App.css';
+import HomeCardBody from './components/menu/home/homecardbody';
+import HomeCardHeader from './components/menu/home/homecardheader';
+import Menu from './components/menu/menu';
 
 function App() {
   return (
     <div>
-      <nav className="navbar navbar-dark bg-dark">
-      <div className="container-fluid">
-        <a className="navbar-brand" href>Navbar</a>
-      </div>
-      </nav>
+      <Menu/>
       <div className="container">
-        <div className="py-3">
-          <div className="card text-center">
-            <div className="card-header">
-              Featured
-            </div>
-            <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
-              <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            </div>
-            <div class="card-footer text-muted">
-              2 days ago
-            </div>
-          </div>
-        </div>
-        <div className="row gx-3 gy-3 py-3">
-          <div className="col-md-4">
-            <div className="card">
-              <div className="card-body">
-                This is some text within a card body.
-              </div>
-            </div>    
-          </div>
-          <div className="col-md-4">
-            <div className="card">
-              <div className="card-body">
-                This is some text within a card body.
-              </div>
-            </div>    
-          </div>
-          <div className="col-md-4">
-            <div className="card">
-              <div className="card-body">
-                This is some text within a card body.
-              </div>
-            </div>    
-          </div>
-        </div>
-        
-        
+        <HomeCardHeader/>
+        <HomeCardBody/>
       </div>
     </div>
     // <div className="App">
