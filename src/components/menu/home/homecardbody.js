@@ -3,9 +3,9 @@ import HomeCardContent from "./homecardbody/homecardcontent";
 const HomeCardBody = () => {
     return(
         <div className="row gx-3 gy-3 py-3">
-          <HomeCardContent content=" This is some text within a card body1."/>
-          <HomeCardContent content=" This is some text within a card body2."/>
-          <HomeCardContent content=" This is some text within a card body3."/>
+          <HomeCardContent title="Ketua" content="Bapak Udin Udin"/>
+          <HomeCardContent title="Bendahara" content="Bapak Udins Udins"/>
+          <HomeCardContent title="Sekretaris" content="Bapak Uding Uding"/>
         </div>
     );
 };
