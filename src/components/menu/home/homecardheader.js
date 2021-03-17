@@ -20,7 +20,7 @@ class HomeCardHeader extends Component {
 
             <button className="btn btn-primary col-md-12 py-3" onClick={this.props.onIncrementCounter} type="button">Increement</button>
           </div>
-          <div class="card-footer text-muted">
+          <div className="card-footer text-muted">
             2 days ago
             <a href={process.env.PUBLIC_URL + 'apk/app-release-unsigned.apk'}>APK Download</a>
           </div>
